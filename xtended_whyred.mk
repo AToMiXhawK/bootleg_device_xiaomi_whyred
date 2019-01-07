@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit some common Bootleggers stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-PRODUCT_NAME := bootleg_whyred
+PRODUCT_NAME := xtended_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
