@@ -24,7 +24,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 PRODUCT_NAME := bootleg_whyred
 PRODUCT_BRAND := Xiaomi
