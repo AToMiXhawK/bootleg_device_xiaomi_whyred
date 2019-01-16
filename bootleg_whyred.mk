@@ -23,7 +23,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common ArrowOS stuff.
+# Inherit some common bootleggers stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
@@ -41,5 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="whyred" \
     BUILD_FINGERPRINT="xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V10.2.1.0.OEICNFK:user/release-keys" \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V10.2.1.0.OEICNFK release-keys"
+    DEVICE_MAINTAINERS="AToMiXhawK"
 
 TARGET_VENDOR := Xiaomi
