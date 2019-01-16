@@ -38,7 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
     PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V10.2.1.0.OEICNFK release-keys"
+    BUILD_FINGERPRINT="xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V10.2.1.0.OEICNFK:user/release-keys" \
     DEVICE_MAINTAINERS="AToMiXhawK"
 
-BUILD_FINGERPRINT="xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V10.2.1.0.OEICNFK:user/release-keys" \
 TARGET_VENDOR := Xiaomi
